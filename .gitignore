@@ -1,0 +1,59 @@
+# Unity -projektin .gitignore
+
+# Väliaikaiset tiedostot ja kansiot
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# User-specific files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Automaattisesti generoituja asetustiedostoja
+.vs/
+
+# Package Managerin cache
+Packages/com.unity.package-manager-ui/
+
+# Paketinhallinnan cachet
+Library/PackageCache/
+
+# Gitin oma tiedosto
+.git/
+
+# Ylisuuret tiedostot jotka liittyy Unityn sisäiseen käyttöön
+Library/ArtifactDB
+Library/ShaderCache/
+Library/metadata/
+Library/ScriptAssemblies/
+Library/Bee/
+
+# Crash reports
+sysinfo.txt
+
+# Muut
+*.apk
+*.aab
+*.unitypackage
+*.DS_Store
