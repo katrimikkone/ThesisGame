@@ -5,14 +5,6 @@ using UnityEngine;
 public class pelaajakoodi : MonoBehaviour
 {
     public int kookoslkm = 0;
-   
-   // int kaatuminen = animator.GetInteger("FallFlat");
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -43,11 +35,15 @@ public class pelaajakoodi : MonoBehaviour
            
             Debug.Log("Karhu havaittu!!! ");
             this.GetComponent<Animator>().SetInteger("FallFlat", 1);
-          
-        }
+            Invoke("LopetaPeli", 3f);
+        }   
 
-       
+    }
 
+    private void LopetaPeli()
+    {
+        Debug.Log("GAME OVER.");
+        Application.Quit();
     }
 
   

@@ -17,7 +17,7 @@ public class laskurikoodi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        laskuriTeksti.text = "Kerätyt kookokset: " + pelaaja.kookoslkm + "/3";
+        laskuriTeksti.text = "Kerätyt kookokset: " + pelaaja.kookoslkm + "/5";
 
     }
 }
